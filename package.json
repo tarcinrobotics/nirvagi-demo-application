@@ -1,0 +1,30 @@
+{
+  "name": "Nirvagi-Demo-Edition",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+  "keywords": [],
+  "author": "lucifer",
+  "license": "ISC",
+  "description": "Comprehensive school management CRM system designed to streamline processes and enhance student engagement",
+  "devDependencies": {
+    "electron": "^30.0.6",
+    "electron-builder": "^24.1.0"
+  },
+  "build": {
+    "appId": "com.nirvagi17.app",
+    "win": {
+      "target": [
+        "msi"
+      ],
+      "icon": "assets/favicon.ico"
+    }
+  },
+  "dependencies": {
+    "@capacitor/cli": "^6.0.0",
+    "@capacitor/core": "^6.0.0"
+  }
+}
